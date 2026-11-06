@@ -24,3 +24,14 @@ class EventValidatorTests(unittest.TestCase):
     def test_wrong_input_type(self):
         self.assertFalse(validate_event(["not", "a", "dictionary"]))
 
+
+    def test_non_string_source(self):
+        event = {
+            "event_id": "evt-002",
+            "source": 42,
+            "severity": "high",
+        }
+        self.assertFalse(validate_event(event))
+
+    def test_empty_event(self):
+        self.assertFalse(validate_event({}))
