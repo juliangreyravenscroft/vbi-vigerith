@@ -1,7 +1,7 @@
 # VIGERITH
 
 **Cross-Domain Security Intelligence & Systems Assurance**  
-*VanceBlackwood Industries · RAVENSCROFT Engineering Program*
+*VanceBlackwood Industries | RAVENSCROFT Engineering Program*
 
 > Security conclusions should be traceable to evidence, not assumptions.
 
@@ -65,7 +65,7 @@ VIGERITH follows a small set of non-negotiable principles:
 
 | Item | Status |
 | --- | --- |
-| Project maturity | **Proposed — Engineering Foundation** |
+| Project maturity | **Proposed: Engineering Foundation** |
 | Operational platform | Not implemented |
 | Architecture | Initial direction defined; subject to validation |
 | First planned deliverable | Security-event schema validation using synthetic data |
@@ -93,7 +93,5 @@ Sensitive data, credentials, restricted materials, and unreviewed research artif
 ## Program Context
 
 VIGERITH is developed within **VanceBlackwood Industries** under the broader **RAVENSCROFT Engineering Program**. It complements **SILIARCH**, which focuses on trusted hardware and embedded engineering; VIGERITH may assess security properties of those components through explicitly defined, testable interfaces.
-
----
 
 **Understand before implementing. Verify before trusting. Document before releasing.**
