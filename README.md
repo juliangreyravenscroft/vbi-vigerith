@@ -65,7 +65,7 @@ VIGERITH follows a small set of non-negotiable principles:
 
 | Item | Status |
 | --- | --- |
-| Project maturity | **Proposed — Engineering Foundation** |
+| Project maturity | **Proposed Engineering Foundation** |
 | Operational platform | Not implemented |
 | Architecture | Initial direction defined; subject to validation |
 | First planned deliverable | Security-event schema validation using synthetic data |
