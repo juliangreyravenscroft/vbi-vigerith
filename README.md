@@ -1,7 +1,8 @@
 # VIGERITH
 
 **Cross-Domain Security Intelligence & Systems Assurance**  
-*VanceBlackwood Industries | RAVENSCROFT Engineering Program*
+*VanceBlackwood Industries*  
+*RAVENSCROFT Engineering Program*
 
 > Security conclusions should be traceable to evidence, not assumptions.
 
@@ -67,9 +68,9 @@ VIGERITH follows a small set of non-negotiable principles:
 | --- | --- |
 | Project maturity | **Proposed: Engineering Foundation** |
 | Operational platform | Not implemented |
-| Architecture | Initial direction defined; subject to validation |
+| Architecture | Initial direction defined and subject to validation |
 | First planned deliverable | Security-event schema validation using synthetic data |
-| Testing | Planned; no test results claimed |
+| Testing | Planned. No test results claimed |
 | Public releases | None |
 
 This repository starts with the project definition. Source code, executable examples, installation instructions, and verification records will be added as they are developed and tested.
@@ -86,12 +87,12 @@ Progress will be determined by verified engineering outputs, not feature counts 
 
 ## Research Boundaries
 
-All testing is limited to owned, explicitly authorized, or isolated laboratory environments. Malware research must remain contained. UAS and defense-related work begins with unarmed simulation, read-only telemetry, and assurance testing; live control and weapon-related capabilities are outside the present scope.
+All testing is limited to owned, explicitly authorized, or isolated laboratory environments. Malware research must remain contained. UAS and defense-related work begins with unarmed simulation, read-only telemetry, and assurance testing. Live control and weapon-related capabilities are outside the present scope.
 
 Sensitive data, credentials, restricted materials, and unreviewed research artifacts must never be committed to this repository.
 
 ## Program Context
 
-VIGERITH is developed within **VanceBlackwood Industries** under the broader **RAVENSCROFT Engineering Program**. It complements **SILIARCH**, which focuses on trusted hardware and embedded engineering; VIGERITH may assess security properties of those components through explicitly defined, testable interfaces.
+VIGERITH is developed within **VanceBlackwood Industries** under the broader **RAVENSCROFT Engineering Program**. It complements **SILIARCH**, which focuses on trusted hardware and embedded engineering. VIGERITH may assess security properties of those components through explicitly defined, testable interfaces.
 
 **Understand before implementing. Verify before trusting. Document before releasing.**
