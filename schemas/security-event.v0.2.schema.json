@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VIGERITH Security Event v0.2",
+  "description": "Structural contract for synthetic security events.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "event_id",
+    "source",
+    "severity",
+    "observed_at",
+    "evidence_refs"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.2.0"
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "source": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "severity": {
+      "type": "string",
+      "enum": ["low", "medium", "high"]
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "\\S"
+      },
+      "uniqueItems": true
+    }
+  }
+}
