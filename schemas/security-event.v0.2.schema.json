@@ -8,6 +8,9 @@
   "required": [
     "schema_version",
     "event_id",
+    "event_name",
+    "event_type",
+    "event_description",
     "source",
     "severity",
     "observed_at",
@@ -20,12 +23,28 @@
     "event_id": {
       "type": "string",
       "minLength": 1,
-      "pattern": "\\S"
+      "pattern": ".*\\S.*"
+    },
+    "event_name": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": ".*\\S.*"
+    },
+    "event_type":{
+      "type": "string",
+      "minLength": 1,
+      "pattern": ".*\\S.*"
+    },
+    "event_description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1024,
+      "pattern": ".*\\S.*"
     },
     "source": {
       "type": "string",
       "minLength": 1,
-      "pattern": "\\S"
+      "pattern": ".*\\S.*"
     },
     "severity": {
       "type": "string",
@@ -40,8 +59,8 @@
       "items": {
         "type": "string",
         "minLength": 1,
-        "pattern": "\\S"
-      },
+      "pattern": ".*\\S.*"
+    },
       "uniqueItems": true
     }
   }
